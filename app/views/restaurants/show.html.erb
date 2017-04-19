@@ -42,10 +42,12 @@
   </ul>
 </p>
 
-<%= render 'add_review' %>
+<%= render 'reviews/form', anchor: "form" %>
 
 <br>
 
 <%= link_to 'Edit', edit_restaurant_path(@restaurant) %> |
 <%= link_to 'Back', restaurants_path %>
 <br>
+
+
